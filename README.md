@@ -4,7 +4,9 @@ _Get started using GitHub Copilot in less than an hour._
 
 ## Welcome
 
-- **Who is this for**: Developers at any experience level looking to accelerate their code workflow.
+This is a **GenAI training exercises repository** designed to help you master GitHub Copilot through hands-on practice.
+
+- **Who is this for**: Developers at any experience level looking to accelerate their code workflow with AI assistance.
 - **What you'll learn**: The different ways to interact with Copilot to explain, write, debug, and develop code.
 - **What you'll build**: You will guide Copilot to update Mergington High School's extracurricular activities website.
 - **Prerequisites**:
@@ -13,11 +15,23 @@ _Get started using GitHub Copilot in less than an hour._
   - Basic coding principles
 - **How long**: This exercise takes less than one hour to complete.
 
+## 📚 Training Resources
+
+- **[TRAINING_EXERCISES.md](TRAINING_EXERCISES.md)** - Comprehensive training guide with 6+ exercises
+- **[API_EXAMPLES.md](API_EXAMPLES.md)** - API usage examples with curl, Python, and JavaScript
+- **[tests/](tests/)** - Example test suite demonstrating testing patterns
+
+## 🎯 What You'll Learn
+
 In this exercise, you will:
 
 1. Use a preconfigured Codespace to run VS Code in your browser.
 1. Learn different interaction options to develop with GitHub Copilot.
 1. Use Copilot to summarize and review your pull request.
+1. Write and run automated tests with AI assistance.
+1. Fix bugs and implement features guided by Copilot.
+
+## 🚀 Quick Start
 
 ### How to start this exercise
 
