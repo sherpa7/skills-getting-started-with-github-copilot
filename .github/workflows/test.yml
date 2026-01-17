@@ -30,4 +30,4 @@ jobs:
     
     - name: Test application startup
       run: |
-        timeout 5 python -m uvicorn src.app:app --host 0.0.0.0 --port 8000 || true
+        python -c "import subprocess, time; p = subprocess.Popen(['python', '-m', 'uvicorn', 'src.app:app', '--host', '0.0.0.0', '--port', '8000']); time.sleep(5); p.terminate(); p.wait()"
